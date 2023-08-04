@@ -11,6 +11,8 @@ public class ResortRunner {
 		resort1.setOwnerName("James");
 		resort1.roomType=ResortRoomType.DELUXE;
 		resort.display();
+		
+		ShoeUtil.Buy();
 
 	}
 

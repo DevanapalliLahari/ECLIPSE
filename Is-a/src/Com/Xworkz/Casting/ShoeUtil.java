@@ -2,14 +2,16 @@ package Com.Xworkz.Casting;
 
 public class ShoeUtil {
 	
-	ShoeUtil(Shoe shoe)
+	static void Buy(Shoe shoe)
 	{
 		System.out.println("Running ShoeUtil...");
 		if(shoe !=null)
 		{
-			System.out.println("Price  :"+shoe.price);
-			System.out.println("Size  :"+shoe.size);
-			System.out.println("Color  :"+shoe.color);
+			System.out.println("Runnin");
+			}
+		else {
+			System.out.println("give valid shoe");
+		}
 			if(shoe instanceof PumaShoe)
 			{
 				PumaShoe pumaShoe=(PumaShoe)shoe;
@@ -25,4 +27,4 @@ public class ShoeUtil {
 		
 	}
 
-}
+

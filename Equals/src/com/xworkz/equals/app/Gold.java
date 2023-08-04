@@ -45,10 +45,10 @@ public class Gold {
 			Gold casted=(Gold)obj;
 			if(this.location==casted.location&&this.design==casted.design&&price==casted.price&&historical==casted.historical)
 			{
-				System.out.println("print arguments...");
+				System.out.println("Both  are same...");
 				return true;
 			}else {
-				return false;
+				System.out.println("Both  are not same...");
 			}
 			}
 			else {
@@ -58,7 +58,7 @@ public class Gold {
 		else {
 			System.err.println("Argument is null,Skip comparision");
 		}
-		return true;
+		return false;
 	}
 
 }

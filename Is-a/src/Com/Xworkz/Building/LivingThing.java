@@ -18,5 +18,11 @@ public class LivingThing {
 		this.kingdom=kingdom;
 		this.size=size;
 	}
+	void display()
+	{
+		this.name=name;
+		this.kingdom=kingdom;
+		this.size=size;
+	}
 
 }

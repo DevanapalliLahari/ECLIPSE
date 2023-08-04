@@ -8,7 +8,6 @@ public class PumaShoe extends Shoe{
 	PumaShoe(String model,String origin,int price,ShoeSize size,ShoeColor color)
 	{
 		super(price,size,color);
-		System.out.println("Running String,String consts in PumaShoe....");
 		this.model=model;
 		this.origin=origin;
 	}

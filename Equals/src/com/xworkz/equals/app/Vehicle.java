@@ -49,10 +49,10 @@ public class Vehicle {
 			Vehicle casted=(Vehicle)obj;
 			if(this.type==casted.type&&this.capacity==casted.capacity&&noOfWheels==casted.noOfWheels&&price==this.price&&safty==this.safty)
 			{
-				System.out.println("print arguments...");
+				System.out.println("Both  are same...");
 				return true;
 			}else {
-				return false;
+				System.out.println("Both  are not same...");
 			}
 			}
 			else {
@@ -62,7 +62,7 @@ public class Vehicle {
 		else {
 			System.err.println("Argument is null,Skip comparision");
 		}
-		return true;
+		return false;
 		
 	}
 

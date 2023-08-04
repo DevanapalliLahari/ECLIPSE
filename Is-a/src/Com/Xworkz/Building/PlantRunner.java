@@ -6,6 +6,7 @@ public class PlantRunner {
 		// TODO Auto-generated method stub
 		
 		LivingThing livingThing=new Plant("Neam","Plantae",40);
+		LivingThing livingThing2=new Plant();
 		System.out.println(livingThing.name);
 		System.out.println(livingThing.kingdom);
 		System.out.println(livingThing.size);
@@ -16,7 +17,7 @@ public class PlantRunner {
 		System.out.println(livingThing1.size);
 		
 		
-		
+		livingThing2.display();
 		
 
 	}

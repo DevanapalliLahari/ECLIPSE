@@ -5,14 +5,13 @@ public class Shoe {
 	int price;
 	ShoeSize size;
 	ShoeColor color;
-	
-	
-	Shoe(int price,ShoeSize size,ShoeColor color)
-	{
-		System.out.println("Running int,ShoeSize,ShoeColor consts in Shoe...");
-		this.price=price;
-		this.size=size;
-		this.color=color;
+	public Shoe(int price, ShoeSize size, ShoeColor color) {
+		System.out.println("Running String,String consts in PumaShoe....");
+		this.price = price;
+		this.size = size;
+		this.color = color;
 	}
-
+	
+	
+	
 }

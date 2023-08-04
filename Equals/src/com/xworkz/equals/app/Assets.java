@@ -41,10 +41,10 @@ public class Assets {
 			Assets casted=(Assets)obj;
 			if(this.owner==casted.owner&&this.marketDemand==casted.marketDemand&&type==casted.type)
 			{
-				System.out.println("print arguments...");
+				System.out.println("Both  are same...");
 				return true;
 			}else {
-				return false;
+				System.out.println("Both  are not same...");
 			}
 			}
 			else {
@@ -54,7 +54,7 @@ public class Assets {
 		else {
 			System.err.println("Argument is null,Skip comparision");
 		}
-		return true;
+		return false;
 		
 }
 

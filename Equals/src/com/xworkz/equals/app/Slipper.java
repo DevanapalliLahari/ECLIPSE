@@ -63,10 +63,10 @@ public class Slipper {
 			Slipper casted=(Slipper)obj;
 			if(this.brand==casted.brand&&this.size==casted.size&&price==casted.price&&lightWeight==casted.lightWeight&&washable==casted.washable&&color==casted.color&&shop==casted.shop)
 			{
-				System.out.println("print arguments...");
+				System.out.println("Both  are same...");
 				return true;
 			}else {
-				return false;
+				System.out.println("Both  are not same...");
 			}
 			}
 			else {
@@ -76,7 +76,7 @@ public class Slipper {
 		else {
 			System.err.println("Argument is null,Skip comparision");
 		}
-		return true;
+		return false;
 	}
 
 }

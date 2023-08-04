@@ -40,10 +40,10 @@ public class Grocery {
 				Grocery casted=(Grocery)obj;
 				if(this.storeSize==casted.storeSize&&this.customerService==casted.customerService)
 				{
-					System.out.println("print arguments...");
+					System.out.println("Both  are same...");
 					return true;
 				}else {
-					return false;
+					System.out.println("Both  are not same...");
 				}
 				}
 				else {
@@ -53,7 +53,7 @@ public class Grocery {
 			else {
 				System.err.println("Argument is null,Skip comparision");
 			}
-			return true;
+			return false;
 			
 	}
 	

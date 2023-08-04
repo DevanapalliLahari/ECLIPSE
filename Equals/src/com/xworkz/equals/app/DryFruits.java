@@ -57,10 +57,10 @@ public class DryFruits {
 			DryFruits casted=(DryFruits)obj;
 			if(this.name==casted.name&&this.nutrients==casted.nutrients&&allergy==casted.allergy&&fiberContent==casted.fiberContent&&price==casted.price&&vitamins==casted.vitamins)
 			{
-				System.out.println("print arguments...");
+				System.out.println("Both  are same...");
 				return true;
 			}else {
-				return false;
+				System.out.println("Both  are not same...");
 			}
 			}
 			else {
@@ -70,7 +70,7 @@ public class DryFruits {
 		else {
 			System.err.println("Argument is null,Skip comparision");
 		}
-		return true;
+		return false;
 	}
 	
 	
